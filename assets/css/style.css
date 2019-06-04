@@ -29,6 +29,7 @@ h1{
     color: gray;
 }
 
+   
 
 
 .contains-number {
@@ -44,10 +45,19 @@ h1{
     display:block;
     background-color:green;
     color: white;
-    margin-top:10px;
+    margin-top:-100px;
+    margin-left:250px;
     width: 100px;
     height: 100px;
 }   
+
+.wins-text{
+    padding: 5px 5px 5px 5px;
+}
+
+.losses-text{
+    padding: 5px 5px 5px 5px;
+}
 
 .crystals-container{
     display: block;
@@ -55,6 +65,7 @@ h1{
     width: 430px;
     height: 100px;
     margin-top: 10px;
+    
 }
 
 

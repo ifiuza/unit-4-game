@@ -7,3 +7,7 @@ $(document).ready(function() {
     $(".losses-text").text("Losses: " + losses);
 }); 
 
+ //Array of different crystal images
+ var crystalImages = [".\assets\images\crystalone.jpg", ".\assets\images\crystaltwo.jpg", 
+                  ".\assets\images\crystalthree.jpg",".\assets\images\crystalfour.jpg" ];
+
