@@ -29,6 +29,8 @@ h1{
     color: gray;
 }
 
+
+
 .contains-number {
     display:block;
     color:gray;
@@ -36,7 +38,6 @@ h1{
     margin-top:10px;
     width: 200px;
     height: 100px;
-    float:left;
 }
 
 .contains-winloss {
@@ -44,10 +45,32 @@ h1{
     background-color:green;
     color: white;
     margin-top:10px;
-    margin-left:10px;
     width: 100px;
     height: 100px;
-    float: left;
+}   
+
+.crystals-container{
+    display: block;
+    background-color:white;
+    width: 430px;
+    height: 100px;
+    margin-top: 10px;
 }
 
 
+.containsscore{
+    margin-top: 10px;
+    display: block;
+    background-color:lightseagreen;
+    width: 150px;
+    height: 30px;
+}
+
+.addedscore{
+    display: block;
+    background-color:green;
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
