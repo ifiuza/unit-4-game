@@ -1,0 +1,53 @@
+body{
+ background-color:lightslategray;
+}
+h1{
+    font-size: 50px;
+}
+.container-title{
+
+  display: block;
+  background-color: orangered;
+  padding: 20px 20px;
+  width: 400px;
+}
+
+.container-instructions{
+
+    display:block;
+    background-color:orange;
+    margin-top:10px;
+    padding: 20px 20px;
+    width: 400px;
+
+}
+
+
+.contains-text span{
+    display: block;
+    margin-top: 10px;
+    color: gray;
+}
+
+.contains-number {
+    display:block;
+    color:gray;
+    background-color:lightgreen;
+    margin-top:10px;
+    width: 200px;
+    height: 100px;
+    float:left;
+}
+
+.contains-winloss {
+    display:block;
+    background-color:green;
+    color: white;
+    margin-top:10px;
+    margin-left:10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+
