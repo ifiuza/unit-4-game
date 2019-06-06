@@ -4,6 +4,8 @@ body{
 h1{
     font-size: 50px;
 }
+
+
 .container-title{
 
   display: block;
@@ -29,16 +31,24 @@ h1{
     color: gray;
 }
 
+
    
 
 
 .contains-number {
     display:block;
-    color:gray;
-    background-color:lightgreen;
+    color:white;
+    font-weight: bold;
+    background-color:black;
     margin-top:10px;
+    margin-left:20px;
     width: 200px;
     height: 100px;
+    border-radius: 99px;
+}
+
+.number-to-guess{
+    padding: 40px 20px;
 }
 
 .contains-winloss {
@@ -46,9 +56,9 @@ h1{
     background-color:green;
     color: white;
     margin-top:-100px;
-    margin-left:250px;
-    width: 100px;
-    height: 100px;
+    margin-left:290px;
+    width: 150px;
+    height: 70px;
 }   
 
 .wins-text{
@@ -59,29 +69,26 @@ h1{
     padding: 5px 5px 5px 5px;
 }
 
-.crystals-container{
-    display: block;
-    background-color:white;
-    width: 430px;
-    height: 100px;
+
+img {
     margin-top: 10px;
-    
+    margin-right:10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;    
 }
 
 
-.containsscore{
-    margin-top: 10px;
-    display: block;
-    background-color:lightseagreen;
-    width: 150px;
-    height: 30px;
-}
 
-.addedscore{
+.your-guess{
     display: block;
     background-color:green;
     width: 150px;
-    height: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 20px;
+    margin-top: -55px;  
+    margin-left:250px;
+    color:white;
+    text-align: center; padding: 20px;
+
 }
+
