@@ -1,4 +1,6 @@
-$(document).ready(function() {
+ $(document).ready(function() {
+  
+
 
     //Global variables
     var wins = 0;
@@ -8,8 +10,8 @@ $(document).ready(function() {
 
 
  //Array of different crystal images
- var gemImages = ["./assets/images/crystalone.jpg", "./assets/images/crystaltwo.jpg", 
-                  "./assets/images/crystalthree.jpg","./assets/images/crystalfour.jpg" ];
+ var gemImages = ["./assets/images/crystalone.JPG", "./assets/images/crystaltwo.JPG", 
+                  "./assets/images/crystalthree.JPG","./assets/images/crystalfour.JPG" ];
 
 
 
@@ -19,7 +21,7 @@ function gemValues() {
     for (var i = 0; i < gemImages.length; i++) {
        var image = $("<img>");
             image.addClass("gem-buttons");
-            image.attr("src", gemImages[i]);
+            image.attr("src", gemImages[i]); //why do we repeat this line?
             image.attr("data-letter", Math.floor(Math.random() * 12) +1);
             $("#gems").append(image);
     } 
